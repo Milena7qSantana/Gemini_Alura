@@ -1,0 +1,77 @@
+/* Reset styles for a clean foundation */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+  background-color: #2980b9; /* A cool blue shade */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0; /* Top and bottom padding */
+}
+
+h1 {
+  font-size: 2.5em; /* Larger heading size */
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Main content styles */
+main {
+  padding: 40px; /* Add some padding for better content containment */
+}
+
+/* Search section styles */
+section {
+  display: flex; /* Arrange input and button horizontally */
+  justify-content: center; /* Center them within the section */
+  margin-bottom: 20px; /* Add some spacing below the section */
+}
+
+input[type="text"] {
+  width: 250px; /* Set a reasonable input width */
+  padding: 10px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px;
+}
+
+button {
+  background-color: #2980b9; /* Same blue from the header */
+  color: #fff;
+  padding: 10px 20px; /* Adjust padding for a balanced look */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Match the input's rounded corners */
+  font-size: 16px;
+  cursor: pointer; /* Indicate interactivity on hover */
+  margin-left: 10px; /* Add some space between the input and button */
+}
+
+/* Footer styles */
+footer {
+  background-color: #f2f2f2; /* Light gray background */
+  padding: 20px;
+  margin-top: 400px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 5px; /* Add some spacing between paragraphs */
+}
+
+/* Responsiveness (optional) */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens, if needed */
+  h1 {
+    font-size: 2em; /* Slightly smaller heading for mobile */
+  }
+
+  input[type="text"] {
+    width: 100%; /* Make input width responsive */
+  }
+}
